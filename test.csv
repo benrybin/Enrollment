@@ -1,0 +1,8 @@
+UserId,First Name,Last Name,Version,Insurance Company
+STH,Tom,Thomas,1,Humana
+STH,Tom,Thomas,2,Humana
+STH,Tom,Thomas,3,Humana
+BTF,Carl,Rogers,1,BCBS
+BTC,Ben,Rogers,1,BCBS
+BTC,Ben,Rogers,3,BCBS
+UIT,Sarah,Rogers,4,Cigna

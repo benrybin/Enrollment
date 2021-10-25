@@ -7,8 +7,7 @@ public class EnrolleeInsuranceCompanySplit {
 
     public static Map<String, List<Enrollee>> splitEnrollebyCompany(List<Enrollee> enrollees) throws Exception {
         Map<String, List<Enrollee>> enrolleSorted = new HashMap<>();
-
-
+       //Splits enrolle by insurance company
         for (Enrollee e: enrollees) {
             if(enrolleSorted.containsKey(e.getInsuranceCompany())){
 
@@ -22,6 +21,7 @@ public class EnrolleeInsuranceCompanySplit {
             }
 
         }
+        //create output csv file
         createFile(enrolleSorted);
 
         return enrolleSorted;
